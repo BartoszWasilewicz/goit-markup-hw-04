@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agencja</title>
-    <link rel="stylesheet" href="/goit-markup-hw-03/css/modern-normalize.css">
-    <link rel="stylesheet" href="/goit-markup-hw-03/css/styles.css"/>
+    <link rel="stylesheet" href="/goit-markup-hw-04/css/modern-normalize.css">
+    <link rel="stylesheet" href="/goit-markup-hw-04/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -23,8 +23,17 @@
         </ul>
     </nav>
     <ul class="contact-links">
-        <li><a href="mailto:info@devstudio.com" class="contact-header">info@devstudio.com</a></li>
-        <li><a href="tel:+48111111111" class="contact-header">+48 111 111 111</a></li>
+        <li>
+            <svg width="16" height="12" class="header_icon">
+                <use href="./images/icons/icons.svg#icon-mail-envelope"></use> 
+            </svg>
+                <a href="mailto:info@devstudio.com" class="contact-header">info@devstudio.com</a>
+        </li>
+        <li>
+            <svg width="10" height="16" class="header_icon">
+                <use href="./images/icons/icons.svg#icon-smartphone"></use> 
+            </svg>
+                <a href="tel:+48111111111" class="contact-header">+48 111 111 111</a></li>
     </ul>
         </div>
     </header>
@@ -38,13 +47,37 @@
     <section class="loremipsum">
         <div class="container">
         <ul class="lorem_listitem_list">
-            <li class="lorem_listitem"><h3>Lorem ipsum</h3>
+            <li class="lorem_listitem">
+                <div class="lorem_listitem_icons">
+                    <svg class="lorem_listitem_icon" height="70" width="70">
+                        <use href="./images/icons/icons.svg#icon-antenna"></use>
+                    </svg>
+                </div>
+                <h3>Lorem ipsum</h3>
                 <p class="lorem_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p></li>
-            <li class="lorem_listitem"><h3>Lorem ipsum</h3>
+            <li class="lorem_listitem">
+                <div class="lorem_listitem_icons">
+                    <svg class="lorem_listitem_icon" height="70" width="70">
+                        <use href="./images/icons/icons.svg#icon-clock"></use>
+                    </svg>
+                </div>
+                <h3>Lorem ipsum</h3>
                 <p class="lorem_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p></li>
-            <li class="lorem_listitem"><h3>Lorem ipsum</h3>
+            <li class="lorem_listitem">
+                <div class="lorem_listitem_icons">
+                    <svg class="lorem_listitem_icon" height="70" width="70">
+                        <use href="./images/icons/icons.svg#icon-diagram"></use>
+                    </svg>
+                </div>
+                <h3>Lorem ipsum</h3>
                 <p class="lorem_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p></li>
-            <li class="lorem_listitem"><h3>Lorem ipsum</h3>
+            <li class="lorem_listitem">
+                <div class="lorem_listitem_icons">
+                    <svg class="lorem_listitem_icon" height="70" width="70">
+                        <use href="./images/icons/icons.svg#icon-astronaut"></use>
+                    </svg>
+                </div>
+                <h3>Lorem ipsum</h3>
                 <p class="lorem_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p></li>
         </ul>
         </div>
@@ -71,22 +104,193 @@
             <ul class="photos_crew">
                 <li class="crewmember"><img src="./images/imgD.jpg" alt="man in red shirt, beard and glasses on white background"
                     width="270" height="260">
-                <h3 class="section_crewmember">John Doe</h3><p class="section_crewmember_desctription">Product Designer</p></li>
+                <h3 class="section_crewmember">John Doe</h3><p class="section_crewmember_desctription">Product Designer</p>
+                <ul class="crewmember_icons">
+                    <li>
+                        <a href="#">
+                            <svg class="crewmember_icon" height="44" width="44">
+                                <use href="./images/icons/icons.svg#icon-instagram"></use>
+                    </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg class="crewmember_icon" height="44" width="44">
+                                <use href="./images/icons/icons.svg#icon-twitter"></use>
+                    </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg class="crewmember_icon" height="44" width="44">
+                                <use href="./images/icons/icons.svg#icon-facebook"></use>
+                    </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg class="crewmember_icon" height="44" width="44">
+                                <use href="./images/icons/icons.svg#icon-linkedin"></use>
+                    </svg>
+                        </a>
+                    </li>
+                </ul>
                 <li class="crewmember"><img src="./images/imgC.jpg" alt="woman with blonde hair and glasses"
                     width="270" height="260">
-                <h3 class="section_crewmember">Sarah Smith</h3><p class="section_crewmember_desctription">Frontend Developer</p></li>
+                <h3 class="section_crewmember">Sarah Smith</h3><p class="section_crewmember_desctription">Frontend Developer</p>
+                <ul class="crewmember_icons">
+                    <li>
+                        <a href="#">
+                            <svg class="crewmember_icon" height="44px" width="44px">
+                                <use href="./images/icons/icons.svg#icon-instagram"></use>
+                    </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg class="crewmember_icon" height="44px" width="44px">
+                                <use href="./images/icons/icons.svg#icon-twitter"></use>
+                    </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg class="crewmember_icon" height="44px" width="44px">
+                                <use href="./images/icons/icons.svg#icon-facebook"></use>
+                    </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg class="crewmember_icon" height="44px" width="44px">
+                                <use href="./images/icons/icons.svg#icon-linkedin"></use>
+                    </svg>
+                        </a>
+                    </li>
+                </ul>
                 <li class="crewmember"><img src="./images/imgB.jpg" alt="man in blue shirt"
                     width="270" height="260">
-                <h3 class="section_crewmember">David Martinez</h3><p class="section_crewmember_desctription">Marketing</p></li>
+                <h3 class="section_crewmember">David Martinez</h3><p class="section_crewmember_desctription">Marketing</p>
+                <ul class="crewmember_icons">
+                    <li>
+                        <a href="#">
+                            <svg class="crewmember_icon" height="44px" width="44px">
+                                <use href="./images/icons/icons.svg#icon-instagram"></use>
+                    </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg class="crewmember_icon" height="44px" width="44px">
+                                <use href="./images/icons/icons.svg#icon-twitter"></use>
+                    </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg class="crewmember_icon" height="44px" width="44px">
+                                <use href="./images/icons/icons.svg#icon-facebook"></use>
+                    </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg class="crewmember_icon" height="44px" width="44px">
+                                <use href="./images/icons/icons.svg#icon-linkedin"></use>
+                    </svg>
+                        </a>
+                    </li>
+                </ul>
                 <li class="crewmember"><img src="./images/imgA.jpg" alt="man with black t-shirt, beard and glasses on urban background"
                     width="270" height="260">
-                <h3 class="section_crewmember">Kyle Benson</h3><p class="section_crewmember_desctription">UI Designer</p></li>
+                <h3 class="section_crewmember">Kyle Benson</h3><p class="section_crewmember_desctription">UI Designer</p>
+                <ul class="crewmember_icons">
+                    <li>
+                        <a href="#">
+                            <svg class="crewmember_icon" height="44px" width="44px">
+                                <use href="./images/icons/icons.svg#icon-instagram"></use>
+                    </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg class="crewmember_icon" height="44px" width="44px">
+                                <use href="./images/icons/icons.svg#icon-twitter"></use>
+                    </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg class="crewmember_icon" height="44px" width="44px">
+                                <use href="./images/icons/icons.svg#icon-facebook"></use>
+                    </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg class="crewmember_icon" height="44px" width="44px">
+                                <use href="./images/icons/icons.svg#icon-linkedin"></use>
+                    </svg>
+                        </a>
+                    </li>
+                </ul>
             </ul>
+        </div>
+    </section>
+    <section class="customers">
+        <div class="container">
+            <h2 class="section_title">Nasi klienci</h2>
+                <ul class="customers_icon_block">
+                    <li class="customers_icon_window">
+                        <a href="#">
+                            <svg width="106" height="60" viewBox="0 0 100 50" class="customers-icon">
+                                <use href="./images/icons/icons.svg#icon-Logo"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="customers_icon_window">
+                        <a href="#">
+                            <svg width="106" height="60" viewBox="0 0 100 50" class="customers-icon">
+                                <use href="./images/icons/icons.svg#icon-Logo-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="customers_icon_window">
+                        <a href="#">
+                            <svg width="106" height="60" viewBox="0 0 100 50" class="customers-icon">
+                                <use href="./images/icons/icons.svg#icon-Logo-2"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="customers_icon_window">
+                        <a href="#">
+                            <svg width="106" height="60" viewBox="0 0 100 50" class="customers-icon">
+                                <use href="./images/icons/icons.svg#icon-Logo-3"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="customers_icon_window">
+                        <a href="#">
+                            <svg width="106" height="60" viewBox="0 0 100 50" class="customers-icon">
+                                <use href="./images/icons/icons.svg#icon-Logo-4"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="customers_icon_window">
+                        <a href="#">
+                            <svg width="106" height="60" viewBox="0 0 100 50" class="customers-icon">
+                                <use href="./images/icons/icons.svg#icon-Logo-5"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
         </div>
     </section>
 </main>
 <footer>
     <div class="container">
+        <div class="footer_flex">
+            <div class="footer">
     <a href="index.html" class="logo-footer"><span>Web</span><span class="logo-studio">Studio</span></a>
     <address>
         <ul>
@@ -95,6 +299,41 @@
             <li class="address-link"><a href="tel:+48111111111" class="contact-footer">+48 111 111 111</a></li>
         </ul>
     </address>
+    </div>
+    <div class="social_footer_join">
+        <h3 class="social_footer_header">Dołącz do nas</h3>
+            <ul class="social_footer_icons">
+                <li>
+                    <a href="#">
+                        <svg class="footer_icon" height="70px" width="70px">
+                            <use href="./images/icons/icons.svg#icon-instagram"></use>
+                </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <svg class="footer_icon" height="70px" width="70px">
+                            <use href="./images/icons/icons.svg#icon-twitter"></use>
+                </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <svg class="footer_icon" height="70px" width="70px">
+                            <use href="./images/icons/icons.svg#icon-facebook"></use>
+                </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <svg class="footer_icon" height="70px" width="70px">
+                            <use href="./images/icons/icons.svg#icon-linkedin"></use>
+                </svg>
+                    </a>
+                </li>
+            </ul>
+            </div>
+        </div>
     </div>
 </footer>
 </body>
