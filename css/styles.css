@@ -259,7 +259,7 @@ a.logo-header {
 }
 
 a.logo-header:hover,
- {
+a.logo-header:focus {
     color: var(--main-text-color)
 }
 
