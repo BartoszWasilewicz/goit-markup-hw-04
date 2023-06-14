@@ -91,6 +91,7 @@ a.logo-header>span {
     left: 215px;
 }
 
+
 a:hover,
 a:focus {
     color: var(--accent-color);
@@ -255,6 +256,11 @@ a.logo-header {
     font-weight: 700;
     font-size: 26px;
     font-family: 'Raleway';
+}
+
+a.logo-header:hover,
+ {
+    color: var(--main-text-color)
 }
 
 a.logo-footer {
@@ -565,18 +571,4 @@ li.photo_grid {
 
 .footer_flex {
     display: flex;
-}
-
-a.logo-header:hover,
-a.logo-header:focus {
-    color: var(--accent-color)
-}
-
-.header-link:hover,
-.header-link:focus {
-    fill: var(--accent-color)
-}
-
-.contact-header:hover {
-    fill: var(--accent-color)
 }
