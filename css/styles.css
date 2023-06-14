@@ -458,6 +458,11 @@ li.photo_grid {
     margin: 16px 32px;
 }
 
+.customers-icon:hover,
+.customers-icon:focus {
+    fill: var(--accent-color)
+}
+
 .customers_icon_block {
     display: flex;
     justify-content: space-between;
@@ -474,6 +479,7 @@ li.photo_grid {
 .customers_icon_window:hover,
 .customers_icon_window:focus {
   border-color: var(--accent-color);
+  fill: var(--accent-color)
 }
 
 .crewmember_icons {
